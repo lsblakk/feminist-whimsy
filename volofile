@@ -27,9 +27,7 @@ module.exports = {
       v.sequence([
         ['cfx', 'xpi',
           '--update-link', 'https://people.mozilla.com/~lsblakk/feminist-whimsy/feminist-whimsy.xpi',
-          '--update-url', 'https://people.mozilla.com/~lsblakk/feminist-whimsy/feminist-whimsy.update.rdf'],
-        [v, 'copyFile', 'feminist-whimsy.xpi', '/Volumes/people.mozilla.com/public_html/feminist-whimsy/feminist-whimsy.xpi'],
-        [v, 'copyFile', 'feminist-whimsy.update.rdf', '/Volumes/people.mozilla.com/public_html/feminist-whimsy/feminist-whimsy.update.rdf']
+          '--update-url', 'https://people.mozilla.com/~lsblakk/feminist-whimsy/feminist-whimsy.update.rdf']
       ], {useConsole: !namedArgs.quiet});
     }
   }
