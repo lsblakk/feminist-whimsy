@@ -26,10 +26,10 @@ module.exports = {
     run: function (d, v, namedArgs, appName) {
       v.sequence([
         ['cfx', 'xpi',
-          '--update-link', 'https://people.mozilla.com/~bwinton/whimsy/whimsy.xpi',
-          '--update-url', 'https://people.mozilla.com/~bwinton/whimsy/whimsy.update.rdf'],
-        [v, 'copyFile', 'whimsy.xpi', '/Volumes/people.mozilla.com/public_html/whimsy/whimsy.xpi'],
-        [v, 'copyFile', 'whimsy.update.rdf', '/Volumes/people.mozilla.com/public_html/whimsy/whimsy.update.rdf']
+          '--update-link', 'https://people.mozilla.com/~lsblakk/feminist-whimsy/feminist-whimsy.xpi',
+          '--update-url', 'https://people.mozilla.com/~lsblakk/feminist-whimsy/feminist-whimsy.update.rdf'],
+        [v, 'copyFile', 'whimsy.xpi', '/Volumes/people.mozilla.com/public_html/feminist-whimsy/feminist-whimsy.xpi'],
+        [v, 'copyFile', 'whimsy.update.rdf', '/Volumes/people.mozilla.com/public_html/feminist-whimsy/feminist-whimsy.update.rdf']
       ], {useConsole: !namedArgs.quiet});
     }
   }
