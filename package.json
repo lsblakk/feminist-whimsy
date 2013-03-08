@@ -3,14 +3,7 @@
     {
       "name": "urlbar",
       "title": "Urlbar placeholder",
-      "description": "Add whimsical sayings before you type in a url.",
-      "type": "bool",
-      "value": true
-    },
-    {
-      "name": "ponami",
-      "title": "Ponami code in About Firefox",
-      "description": "I think you know what to type.",
+      "description": "Add feminist quotations before you type in a url.",
       "type": "bool",
       "value": true
     },
@@ -36,7 +29,7 @@
       ]
     }
   ],
-  "name": "whimsy",
+  "name": "feminist-whimsy",
   "license": "MPL 2.0",
   "author": "",
   "icon": "data/whimsycorn-48.png",
@@ -44,9 +37,9 @@
   "bugs": {},
   "amd": {},
   "repository": {},
-  "version": "0.7",
+  "version": "0.1",
   "contributors": [],
-  "fullName": "whimsy",
-  "id": "jid1-6mUPixNFCjAgkg",
-  "description": "Add some whimsy to your Firefox!"
+  "fullName": "feminist-whimsy",
+  "id": "jid1-6mUPixNFCjAfem",
+  "description": "Add some feminist love to your Firefox!"
 }
